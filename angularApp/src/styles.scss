@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+// 39 vbyenf
+// 45
+// 51
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+ body {
+   font-family: 'Roboto', sans-serif;
+ }
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h3 {
+  font-size: 13px;
+  background: radial-gradient(circle, rgba(33,69,207,1) 0%, rgba(233,148,227,1) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  & li {
+    cursor: pointer;
+
+    & img {
+      width: 100%;
+    }
+
+  }
+}
+
+.product-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 20px;
+  border: 2px solid transparent;
+}
+
+.center {
+  & img {
+    width: 100%;
+  }
+}
